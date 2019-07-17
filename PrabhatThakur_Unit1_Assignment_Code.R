@@ -1,7 +1,4 @@
 # Unit 1 Assignment > MONEYBALL OLS REGRESSION PROJECT
-# MSDS 411 Section 56
-# Prabhat Thakur 04/20/2019
-
 ######## Download appropriate packages and install######
 library(reshape2)
 library(psych)
@@ -17,7 +14,7 @@ library(moments)
 require(gridExtra)
 
 #Designated proper working environment#
-setwd("C:/Users/THAKPR8/Documents/MSDS/411_Sec56/Unit1/HW1/")
+
 
 # Load training and testing data
 train <- read.csv("moneyball.csv",header=T)
